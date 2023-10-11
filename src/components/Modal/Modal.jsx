@@ -1,17 +1,17 @@
-// import {
-//     Overlay,
-//     ModalContainer,
-//     CloseButton,
-//     CarImage,
-//     CarWrapper,
-//     CarTitle,
-//     CarInfo,
-//     RentalBtn,
-//     SecondaryTitle,
-//     AccessoriesList,
-//     ConditionsList,
-//     CarDescription,
-//   } from "./Modal.styled";
+import {
+    Overlay,
+    ModalContainer,
+    CloseButton,
+    CarImage,
+    CarWrapper,
+    CarTitle,
+    CarInfo,
+    RentalBtn,
+    SecondaryTitle,
+    AccessoriesList,
+    ConditionsList,
+    CarDescription,
+  } from "./Modal.styled";
   import crossImg from "./../../img/x.svg";
   
   function Modal({ closeModal, advert }) {

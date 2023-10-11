@@ -55,7 +55,6 @@ const CarFilter = ({ onFilterChange }) => {
 
   const clearFilters = (e) => {
     e.preventDefault();
-    console.log("clear");
     dispatch(resetFilters());
   };
 

@@ -14,6 +14,7 @@ import iconAdd from "./../../img/heart-yes.svg";
 import iconRemove from "./../../img/heart-no.svg";
 import scrollLock from "scroll-lock";
 import { selectFavorites } from "../../redux/selectors";
+import { addToFavorites, removeFromFavorites } from "redux/favorite/favoriteSlice";
 
 function AdvertItem({ advert }) {
   const [openModal, setOpenModal] = useState(false);

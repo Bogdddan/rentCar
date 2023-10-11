@@ -1,5 +1,4 @@
 import { Lcircle, Lshadow, Lwrapper } from "./ButtonLoader.styled";
-import css from './ButtonLoader.module.css';
 const ButtonLoader = () => {
   return (
     <Lwrapper>
